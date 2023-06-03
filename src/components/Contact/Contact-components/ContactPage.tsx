@@ -1,5 +1,5 @@
-import { Provider, useSelector } from "react-redux";
-import store, { RootState } from "../../../store/store";
+import { useSelector } from "react-redux";
+import { RootState } from "../../../store/store";
 import ContactList from "./ContactList";
 
 import CreateContactButton from "./CreateContactButton";
